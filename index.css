@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: pointer;
+}
+canvas {
+  display: block;
+}
+.p1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 40px;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.p2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 28px;
+}
+.qrcode {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;   
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 600px) {
+  .p1{
+      font-size: 24px;
+  }
+  .p2{
+      top:18%;
+      font-size: 20px;
+  }
+}
